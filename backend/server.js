@@ -1,7 +1,7 @@
 const WebSocket = require("ws");
 const { v4: uuidv4 } = require("uuid");
 
-const wss = new WebSocket.Server({ port: 8080 });
+const wss = new WebSocket.Server({ port: 8081 });
 const users = new Map(); // Track connected users: { id: { name, ws } }
 
 // Define broadcastUserList function first
@@ -66,4 +66,4 @@ wss.on("connection", (ws) => {
   });
 });
 
-console.log("WebSocket server running on ws://localhost:8080");
+console.log("WebSocket server running on ws://localhost:8081");
