@@ -36,6 +36,8 @@ https://www.linkedin.com/in/irfan-ali-brohi/
 ## 📄 License
 
 This project is open-source and free to use.
+
+ ## Setup and running this app
 cd backend
 npm install
 npm start or nodemon server.js
