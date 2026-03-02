@@ -38,11 +38,11 @@ https://www.linkedin.com/in/irfan-ali-brohi/
 This project is open-source and free to use.
 
  ## Setup and running this app
- cd backend
- npm install
- npm start or nodemon server.js
- Backend server can be seen on port localhost:8081
- cd frontend
- npm install
- npm start
- Frontend Could be seen on port http://localhost:5173/
+ * cd backend
+ * npm install
+ * npm start or nodemon server.js
+ * Backend server can be seen on port localhost:8081
+ * cd frontend
+ * npm install
+ * npm start
+ * Frontend Could be seen on port http://localhost:5173/
